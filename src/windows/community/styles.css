@@ -1,0 +1,43 @@
+.appwrapper {
+    display: flex;
+    margin: -8px;
+    justify-content: center;
+}
+
+.app {
+    position: relative;
+    color: white;
+    max-width: 200px;
+    height: 400px;
+    background-color: black;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease;
+    top: 0px;
+}
+
+.app:hover {
+    top: 10px;
+}
+
+.appimg {
+    position: relative;
+    margin: -20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-width: 240px;
+}
+
+.apptext {
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    padding: auto;
+    margin-right: -20px;
+    padding-bottom: 80px;
+    text-align: center;
+}

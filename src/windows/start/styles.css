@@ -1,0 +1,72 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+  padding-bottom: 10px;
+  max-width: 484;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+    font-size: 96px;
+}
+  
+.start {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.launch {
+  position: relative;
+  border-radius: 2px;
+  color: white;
+  background-color: green;
+  font-size: 36px;
+  display: inline-block;
+  padding: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 10px;
+  transition-duration: 0.2s;
+}
+
+.launch:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+  transform: scale(1.05);
+  border-radius: 4px;
+}
+
+.settings {
+  position: relative;
+  display: block;
+  border-radius: 2px;
+  background-color: green;
+  padding: 8px;
+  transition-duration: 0.2s;
+  padding: -4px;
+}
+
+.settings:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+  transform: scale(1.05);
+  border-radius: 4px;
+}
+
+.launcherversion {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.clientversion {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  margin-left: auto; 
+  margin-right: 0;
+
+}

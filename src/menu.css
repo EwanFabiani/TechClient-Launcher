@@ -1,0 +1,39 @@
+.menu {
+    position: fixed;
+    font-size: 28px;
+    min-height: 75px;
+    background-color: black;
+    bottom: 0px;
+    left: 0px;
+    padding: 4px;
+    width: 100%;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuitem:link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    transition-duration: 0.2s;
+    border-radius: 4px;
+    bottom: 0px;
+}
+
+.menuitem:link:hover {
+    background-color: rgb(20, 20, 20);
+    bottom: 5px;
+    padding-bottom: 15px;
+}
+
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
