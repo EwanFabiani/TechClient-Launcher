@@ -7,9 +7,9 @@
 }
 
 .title {
-    position: relative;
-    display: inline-block;
-    font-size: 96px;
+  position: relative;
+  display: inline-block;
+  font-size: 96px;
 }
   
 .start {
@@ -47,6 +47,7 @@
   padding: 8px;
   transition-duration: 0.2s;
   padding: -4px;
+  -webkit-user-drag: none;
 }
 
 .settings:hover {
@@ -68,5 +69,4 @@
   right: 5px;
   margin-left: auto; 
   margin-right: 0;
-
 }

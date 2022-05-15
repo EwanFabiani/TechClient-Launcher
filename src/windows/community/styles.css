@@ -28,7 +28,8 @@
     margin: -20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    max-width: 240px;
+    width: 240px;
+    height: 182px;
 }
 
 .apptext {
