@@ -34,6 +34,39 @@
     padding-bottom: 15px;
 }
 
+.close {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(20, 20, 20);
+    border: 2px solid gray;
+    border-radius: 5px;
+    right: 18px;
+    bottom: 18px;
+    position: absolute;
+    justify-content: center;
+    transition-duration: 0.2s;
+    -webkit-app-region: no-drag
+}
+
+.close:after {
+    position: absolute;
+    content: "\274c";
+    font-size: 50px; 
+    color: #FFF;
+    line-height: 50px;
+    text-align: center;
+    color: transparent;
+    transform: scale(0.35) translate(-26px);  
+    text-shadow: 0 0 0 lightgray;
+    
+}
+
+.close:hover {
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
   
 body {
     font-family: 'Roboto', sans-serif;

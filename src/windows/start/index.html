@@ -5,7 +5,15 @@
     <title>TechClient Launcher</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="../../menu.css" />
+    <script type="text/javascript" src="script.js"></script>
   </head>
+
+  <script>
+  function close() {
+    alert("close");
+  }
+  </script>
+
   <body>
     
     <div class="launcherversion">Launcher Version: 1.0.0</div>
@@ -18,17 +26,17 @@
     <div class="start">
 
       <div class="launch"> <strong>Launch</strong> </div>
-      <a href="../settings/index.html" style="text-decoration: none;"><img src="settings-icon.png" class="settings" draggable="false" alt="Settings"></img></a>
+      <a href="../settings/index.html" style="text-decoration: none;"><img src="../../assets/settings-icon.png" class="settings" draggable="false" alt="Settings"></img></a>
     
     </div>
-
     <div class="menu">
       <a href="../community/index.html" class="menuitem" draggable="false">Community</a>
       <a href="../news/index.html" class="menuitem" draggable="false">News</a>
       <a href="#" class="menuitem" draggable="false">Start</a>
       <a href="../cosmetics/index.html" class="menuitem" draggable="false">Cosmetics</a>
       <a href="../settings/index.html" class="menuitem" draggable="false">Settings</a>
-    </div>    
+      <div class="close" onclick="close"></div>
+    </div>
 
   </body>
 
