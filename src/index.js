@@ -17,8 +17,6 @@ const createWindow = () => {
       win.show();
     })
 
-    win.on('closed', () => app.quit());
-
     win.loadFile('src/windows/start/index.html');
 
     try { require('electron-reloader')(module);} catch {};
