@@ -2,10 +2,8 @@
     position: relative;
     font-size: 24px;
     background-color: gray;
-    border-radius: 8px;
+    border-radius: 6px;
     margin: -5px;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
 }
 
 
@@ -38,7 +36,7 @@
     left: 435px;
     top: 50px;
     width: calc(100% - 440px);
-    height: 135px;
+    height: 140px;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;  
@@ -57,7 +55,8 @@
     left: 435px;
     height: 20px;
     font-size: 20px;
-    color: green;
+    color: black;
+    font-style: italic;
 }
 
 .firstreadmore p{
@@ -66,7 +65,7 @@
     left: 800px;
     font-size: 20px;
     color: white;
-    background-color: blue;
+    background-color: rgb(50, 50, 255);
     padding: 5px;
     border-radius: 4px;
     cursor: pointer;
@@ -74,7 +73,10 @@
 }
 
 .firstreadmore:hover p {
-    background-color: lightblue;
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: rgb(60, 60, 255);
+    border-radius: 6px;
 }
 
 .news {
