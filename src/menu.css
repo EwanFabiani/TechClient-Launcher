@@ -14,7 +14,7 @@
     -webkit-app-region: drag;
 }
 
-.menuitem:link {
+.menuitem:link{
     position: relative;
     text-decoration: none;
     color: white;
@@ -26,6 +26,7 @@
     border-radius: 4px;
     bottom: 0px;
     -webkit-app-region: no-drag;
+    
 }
 
 .menuitem:link:hover {
@@ -67,6 +68,27 @@
     cursor: pointer;
 }
 
+#loadAnimation {
+    animation: removeHover 0.2s forwards;
+}
+
+@keyframes removeHover {
+    0% {
+        background-color: rgb(20, 20, 20);
+        bottom: 5px;
+        padding-bottom: 15px;
+    }
+    50% {
+        background-color: rgb(20, 20, 20);
+        bottom: 5px;
+        padding-bottom: 5px;
+    }
+    100% {
+        background-color: rgb(20, 20, 20);
+        bottom: 5px;
+        padding-bottom: 15px;
+    }
+}
   
 body {
     font-family: 'Roboto', sans-serif;
