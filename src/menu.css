@@ -70,6 +70,8 @@
 
 #current {
     animation: currentAnimation 0.2s forwards;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 @keyframes currentAnimation {
@@ -77,6 +79,7 @@
         background-color: rgb(20, 20, 20);
         bottom: 5px;
         padding-bottom: 15px;
+        
     }
     50% {
         background-color: rgb(20, 20, 20);
@@ -87,9 +90,10 @@
         background-color: rgb(20, 20, 20);
         bottom: 5px;
         padding-bottom: 15px;
+        border-top: 3px solid green;
     }
 }
-  
+
 body {
     font-family: 'Roboto', sans-serif;
     user-select: none;
