@@ -6,11 +6,16 @@ app.whenReady().then(() => {
 
 const createWindow = () => {
     const win = new BrowserWindow({
+      webPreferences: {
+        nodeIntegration: true,
+        contextIsolation: false,
+      },
       width: 1024,
       height: 576,
       frame: false,
       resizable: false,
       show: false
+      
     })
   
     win.once('ready-to-show', () => {

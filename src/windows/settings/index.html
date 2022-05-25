@@ -5,10 +5,22 @@
     <title>TechClient Launcher</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="../../menu.css" />
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
   </head>
+
+  
+
   <body>
 
+    <div class="launchwrapper">
+      <div class="launch"> <strong>Launch</strong> </div>
+    </div>
+    <div class="ramwrapper">
+      <div class="ramtext"><strong>RAM - Memory</strong></div>
+      <input type="range" class="slider" min="2.0" max="16.0" step="0.5" value="0" class="ram" id="ram" />
+      <div class="ramindicator" id="value"></div>
+    </div>
+    
     <div class="menu">
       <a href="../community/index.html" class="menuitem" draggable="false">Community</a>
       <a href="../news/index.html" class="menuitem" draggable="false">News</a>

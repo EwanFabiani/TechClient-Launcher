@@ -1,0 +1,75 @@
+.launch {
+  position: relative;
+  border-radius: 2px;
+  color: white;
+  background-color: green;
+  font-size: 46px;
+  display: inline-block;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 40px;
+  margin-top: 30px;
+  transition-duration: 0.2s;
+}
+
+.launchwrapper {
+  border: 1px solid black;
+  margin: -9px;
+  width: 350px;
+  padding-bottom: 30px;    
+
+}
+
+.launch:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+  transform: scale(1.05);
+  border-radius: 4px;
+}
+
+.ramwrapper {
+  border: 1px solid black;
+  margin: -9px;
+  width: 350px;
+  padding-bottom: 30px;
+  margin-top: 8px;
+  text-align: center;
+  
+}
+
+.ramtext {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 75%;
+  height: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 8px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.ramindicator {
+
+}
+
